@@ -21,4 +21,16 @@ describe("AgeCalculator", () => {
   test("calculate years passed since an age in Mercury years", () => {
     expect(calc.yearsSinceAge(30, "Mercury")).toBe(25);
   });
+
+  test("calculate years passed since an age in Venus years", () => {
+    expect(calc.yearsSinceAge(30, "Venus")).toBeCloseTo(9.677);
+  });
+
+  test("calculate years passed since an age in Mars years", () => {
+    expect(calc.yearsSinceAge(30, "Mars")).toBeCloseTo(3.191);
+  });
+
+  test("calculate years passed since an age in Jupiter years", () => {
+    expect(calc.yearsSinceAge(30, "Jupiter")).toBeCloseTo(0.505);
+  });
 });
