@@ -11,6 +11,8 @@
   "author": "Sean Norwood",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
     "@types/jest": "^29.5.3",
     "eslint": "^8.45.0",
     "eslint-plugin-jest": "^27.2.3",
