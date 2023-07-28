@@ -1,0 +1,22 @@
+{
+  "name": "super-galactic-age-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Sean Norwood",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-webpack-plugin": "^4.0.1",
+    "jest": "^29.6.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
