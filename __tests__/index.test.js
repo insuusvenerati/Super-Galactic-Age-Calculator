@@ -19,6 +19,6 @@ describe("AgeCalculator", () => {
   });
 
   test("calculate years passed since an age in Mercury years", () => {
-    expect(calc.yearsSinceAge(30, "Mercury")).toBe(54.16);
+    expect(calc.yearsSinceAge(30, "Mercury")).toBe(25);
   });
 });

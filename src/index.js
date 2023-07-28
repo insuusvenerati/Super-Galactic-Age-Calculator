@@ -12,6 +12,10 @@ class AgeCalculator {
   calculateAge(planet) {
     return this.age / this.earthToPlanets[planet];
   }
+
+  yearsSinceAge(age, planet) {
+    return (this.age - age) / this.earthToPlanets[planet];
+  }
 }
 
 export default AgeCalculator;
