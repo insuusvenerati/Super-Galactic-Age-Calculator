@@ -33,4 +33,8 @@ describe("AgeCalculator", () => {
   test("calculate years passed since an age in Jupiter years", () => {
     expect(calc.yearsSinceAge(30, "Jupiter")).toBeCloseTo(0.505);
   });
+
+  test("calculate years until age in Mercury years", () => {
+    expect(calc.yearsToAge(60, "Mercury")).toBe(8.06);
+  });
 });
