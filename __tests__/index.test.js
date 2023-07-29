@@ -35,6 +35,18 @@ describe("AgeCalculator", () => {
   });
 
   test("calculate years until age in Mercury years", () => {
-    expect(calc.yearsToAge(60, "Mercury")).toBe(8.06);
+    expect(calc.yearsToAge(60, "Mercury")).toBe(100);
+  });
+
+  test("calculate years until age in Venus years", () => {
+    expect(calc.yearsToAge(60, "Venus")).toBeCloseTo(38.709);
+  });
+
+  test("calculate years until age in Mars years", () => {
+    expect(calc.yearsToAge(60, "Mars")).toBeCloseTo(12.765);
+  });
+
+  test("calculate years until age in Jupiter years", () => {
+    expect(calc.yearsToAge(60, "Jupiter")).toBeCloseTo(2.023);
   });
 });
